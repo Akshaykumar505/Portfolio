@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { Code2, Server, Cpu, Wrench } from "lucide-react";
 
-export default function About() {
+export default function About() { 
   // 📝 FUTURE CUSTOMIZATION: Aap in details ko kabhi bhi edit kar sakte hain
   const careerObjective = "Passionate Full Stack & GenAI Developer dedicated to architecting high-performance web systems and orchestrating intelligent LLM pipelines that solve real-world problems.";
   const currentFocus = "Currently learning Full Stack Development, Generative AI, Data Structures & Algorithms, RAG, and Multi-Agent AI frameworks (LangGraph, AutoGen).";
