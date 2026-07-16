@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Akshay Kumar — Developer Portfolio
 
-## Getting Started
+A modern, animated, and fully responsive personal portfolio built with Next.js, TypeScript, and Tailwind CSS — designed to showcase my work as a Full Stack Developer exploring Generative AI.
 
-First, run the development server:
+🔗 Live Demo: portfolio-blush-three-m4tjhj7m8n.vercel.app
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Fully Responsive — optimized for mobile, tablet, and desktop
+Smooth Animations — scroll-based reveals and transitions powered by Framer Motion
+Command Palette — quick keyboard navigation with Ctrl + K
+Animated Typing Effect — dynamic role text in the hero section
+Active Section Tracking — navbar highlights the section currently in view
+Interactive Project Cards — 3D tilt effect on hover
+Freelance & Services Section — services offered, development process, and availability
+Downloadable Resume — one-click resume download
+Custom Cursor Glow & Grain Texture — subtle ambient visual details
+Premium Mobile Navigation — fullscreen animated menu with icons
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+CategoryTechnologyFrameworkNext.js (App Router)LanguageTypeScriptStylingTailwind CSSAnimationFramer MotionIconsLucide ReactDeploymentVercel
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📂 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+├── app/
+│   ├── layout.tsx        # Root layout & metadata
+│   └── page.tsx           # Main page composition
+├── components/
+│   ├── Navbar.tsx          # Navigation with active-section tracking
+│   ├── CommandPalette.tsx  # Ctrl+K quick navigation
+│   ├── Hero.tsx             # Landing section with typing animation
+│   ├── About.tsx            # Bio + tech stack
+│   ├── Timeline.tsx         # Journey / background
+│   ├── Freelance.tsx        # Services & availability
+│   ├── Resume.tsx           # Resume download CTA
+│   ├── Projects.tsx         # Featured projects with 3D tilt
+│   ├── Contact.tsx          # Contact + social links
+│   ├── ScrollProgress.tsx   # Top scroll progress bar
+│   ├── CursorGlow.tsx       # Cursor-follow ambient glow
+│   └── GrainOverlay.tsx     # Subtle film-grain texture
+└── public/
+    ├── resume.pdf
+    └── profile-photo
+
+
+🚀 Getting Started
+
+Clone the repository and install dependencies:
+
+bashgit clone https://github.com/Akshaykumar505/modern-portfolio.git
+cd modern-portfolio
+npm install
+
+Run the development server:
+
+bashnpm run dev
+
+
+📬 Contact
+
+
+GitHub: https://github.com/Akshaykumar505
+LinkedIn: www.linkedin.com/in/akshay-kumar-848a9724b
+Email: your-kumarakshay23085@gmail.com
+
+
+
+⭐ If you like this project, consider giving it a star!
