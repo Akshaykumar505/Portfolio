@@ -68,7 +68,7 @@ export default function Hero() {
             className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.1] mb-6"
           >
             Hi, I'm <span className="text-blue-500">{myName}</span>.<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-100 via-gray-400 to-gray-700 text-2xl sm:text-3xl lg:text-4xl block mt-3 min-h-[1.5em]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-100 via-gray-400 to-gray-700 text-2xl sm:text-3xl lg:text-4xl block mt-3 min-h-[2.6em] sm:min-h-[2.4em] lg:min-h-[2.2em]">
               {typedText}
               <span className="inline-block w-[2px] h-[1em] bg-blue-400 ml-1 align-middle animate-pulse" />
             </span>

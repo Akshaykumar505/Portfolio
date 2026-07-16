@@ -10,6 +10,7 @@ import ScrollProgress from "@/components/ScrollProgress";
 import CursorGlow from "@/components/CursorGlow";
 import GrainOverlay from "@/components/GrainOverlay";
 //import Preloader from "@/components/Preloader";
+import Freelance from "@/components/Freelance";
 
 export default function Home() {
   const githubLink = "https://github.com/Akshaykumar505";
@@ -20,8 +21,8 @@ const emailAddress = "kumarakshay23085@gmail.com";
   return (
     <main className="min-h-screen bg-[#060606] text-white relative antialiased selection:bg-blue-500/30 selection:text-white overflow-x-hidden">
       <ScrollProgress />
-      <CursorGlow />
-      <GrainOverlay />
+       <CursorGlow />  
+       <GrainOverlay /> 
       {/* Global Navigation Components */}
       <Navbar />
       <CommandPalette />
@@ -59,6 +60,7 @@ const emailAddress = "kumarakshay23085@gmail.com";
         <Hero />
         <About />
         <Timeline /> 
+        <Freelance />
         <Resume />
         <Projects />
         <Contact />

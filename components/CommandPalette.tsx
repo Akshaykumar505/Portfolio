@@ -44,15 +44,6 @@ export default function CommandPalette() {
 
   return (
     <>
-      {/* Invisible trigger helper hint for mobile/desktop users */}
-      <div className="fixed bottom-6 right-6 z-40 hidden md:block">
-        <button 
-          onClick={() => setIsOpen(true)}
-          className="bg-white/5 border border-white/10 text-gray-400 px-3 py-2 rounded-xl text-xs font-mono backdrop-blur-md hover:border-white/20 hover:text-white transition-all shadow-2xl"
-        >
-          Press <kbd className="bg-white/10 px-1.5 py-0.5 rounded text-[10px] border border-white/10 mx-0.5">Ctrl</kbd> + <kbd className="bg-white/10 px-1.5 py-0.5 rounded text-[10px] border border-white/10 mx-0.5">K</kbd> to explore
-        </button>
-      </div>
 
       <AnimatePresence>
         {isOpen && (
